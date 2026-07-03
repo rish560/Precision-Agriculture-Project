@@ -66,3 +66,75 @@ Build the website pages and connect them with the backend so users can interact 
 
 Step 4: Testing and Final Submission (Step 4)
 Test all features, fix any problems, ensure everything works properly, and submit the completed project.
+
+
+
+
+**Name:** Sangita Das
+**Project Name:** FarmVerse – Precision Agriculture Platform
+**Tech Stack:** React, Spring Boot, MySQL
+
+## Problem Statement:
+
+1. Farmers face difficulties in managing multiple farms efficiently.
+2. Manual farm management is time-consuming and prone to human errors.
+3. Poor monitoring and resource management can reduce crop yield and productivity.
+4. Existing manual systems are not scalable and lack real-time monitoring capabilities for modern agricultural operations.
+
+## Problem Solution:
+
+1. Develop a web-based application for efficient farm management.
+2. Provide modules for Farm, Crop, and User Management.
+3. Provide an interactive dashboard with automated monitoring and reporting features to support better decision-making.
+4. Design a scalable system that can support future growth and additional features.
+
+## System Architecture:
+
+The FarmVerse application follows a three-tier architecture:
+1. Presentation Layer (Frontend – Web Application)
+2. Business Logic Layer (Spring Boot REST APIs)
+3. Data Layer (MySQL Database)
+
+## Components:
+
+1. **Frontend:** The frontend of the application will be developed using React and will provide a user-friendly interface for managing farms, crops, and users.
+2. **Backend:** Spring Boot REST APIs to handle business logic and communication.
+3. **Database:** MySQL to store application data securely.
+
+## Database Schema:
+
+The application will use three main tables:
+1. **Users:** id, name, email, password, role (Admin / Farm Manager / Viewer), dateOfBirth
+2. **Farms:** id, farmName, location, ownerId (Foreign Key)
+3. **Crops:** id, cropName, cropType, farmId (Foreign Key), status (Growing / Harvested)
+
+These tables are connected through relationships to maintain organized and consistent data.
+
+## Backend:
+
+The backend of the application will be developed using Spring Boot and will provide RESTful APIs for managing the system.
+
+### Backend Features:
+
+1. User CRUD APIs
+2. Farm CRUD APIs
+3. Crop CRUD APIs
+4. User Registration & Login
+5. JWT-based Authentication & Authorization
+
+## Frontend:
+
+The frontend of the application will be developed as a web application using React and will provide a user-friendly interface for managing farms, crops, and users.
+
+### Frontend Pages:
+
+1. Login Page
+2. Register Page
+3. Dashboard
+4. Users Management Page
+5. Farms Management Page
+6. Crops Management Page
+
+## Conclusion:
+
+FarmVerse is a scalable Precision Agriculture Management Platform that digitizes farm operations and improves efficiency. It enables users to manage farms, crops, and users through a secure and user-friendly system while supporting future enhancements and scalability.
