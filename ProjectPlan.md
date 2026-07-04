@@ -49,6 +49,7 @@ The system is designed to keep farm data organized, improve monitoring, and give
 
 ### System Architecture
 
+```text
 ┌─────────────────────────────────────────────────────────┐
 │                 FRONTEND (Top Layer)                    │
 │      React.js / HTML5 / CSS3 (User Dashboards)          │
@@ -65,6 +66,7 @@ The system is designed to keep farm data organized, improve monitoring, and give
 │               DATABASE (Storage Layer)                  │
 │               MySQL Relational Database                 │
 └─────────────────────────────────────────────────────────┘
+```
 
 
 ### Implementation Roadmap
