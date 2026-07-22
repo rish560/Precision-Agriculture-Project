@@ -10,7 +10,7 @@ Farmers find it difficult to keep track of their farms and crops using paper rec
 ## Proposed Solution
 Create a website where users can easily manage farms, crop details, and other farming information in one place.
 
-## Data to be Stored
+## Data to be Stored 
 
 **User:** Stores user details such as name, login information, date of birth, and role (Admin, Farm Manager, or Guest).
 
