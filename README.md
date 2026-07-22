@@ -330,7 +330,11 @@ Backend Response
    ▼
 Frontend Displays Updated Information
 ```
-
+## Documentation
+* [Project Plan](Docs/ProjectPlan.md)
+* [Frontend Documentation](FRONTEND_DOCUMENTATION.md)
+* [Backend Documentation](BACKEND_DOCUMENTATION.md)
+* Individual Project Plans — available in the `Docs` folder
 ---
 
 # Conclusion
